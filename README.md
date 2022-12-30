@@ -32,7 +32,7 @@ Output from Amazon QuickSight dashboard link can be found here [link](https://us
 
 The dashboard was created by using a SPICE dataset imported from a Redshift table
 
-##Setup
+## Setup
 To set this up on your 
 
 
