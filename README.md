@@ -9,3 +9,6 @@ A model is only as good as the data it is trained on. Insights can only be accur
 
 My motivation for making this project is to provide Data scientists, data analysts, and Business analysts access to clean and structured data
 This project provided me with a good opporttunity to learn DevOps and IaaC tools. 
+
+## Architecture
+
