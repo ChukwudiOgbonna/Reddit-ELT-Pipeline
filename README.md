@@ -36,10 +36,10 @@ The dashboard was created by using a SPICE dataset imported from a Redshift tabl
 To set this up on your 
 
 
-## Challenges
+## Challenges/Limitatios
 1. The RedshiftSQL Operator does not support multi line SQL statements, seperate tasks had to be created to run the SQL commands
 2. Airflow tasks create and close db sessions and temporary tables only last during a session. A table had to be used instead
-3. A make file can be used to automate the process from provisioning resources using terraform, to injecting configuration variables to the containers and spinning up the containers
+3. A Makefile can be used to automate the process from provisioning resources using terraform, to injecting configuration variables to the containers and spinning up the containers
 
 
 
