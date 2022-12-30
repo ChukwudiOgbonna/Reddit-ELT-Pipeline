@@ -43,9 +43,14 @@ terraform apply
 chmod +x output_terraform.sh
 ./output_terrafrom.sh
 docker-compose up
-
+```
+This spins up the airflow containers, type the text below in your browser to open the airflow UI/webserver
+```
+http:localhost:8000
 ```
 
+Simply go to te defined DAG, and click Trigger.
+Thats all!!!
 
 
 ## Challenges/Limitations
