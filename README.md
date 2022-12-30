@@ -26,5 +26,10 @@ This project provided me with a good opporttunity to learn DevOps and IaaC tools
 
 ## Output
 
+![My Image1](dashboard.jpg)
+
+
+
+
 
 
