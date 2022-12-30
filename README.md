@@ -5,7 +5,7 @@ Output is a Amazon QuickSight Dashboard report, providing some insights into the
 
 ## Motivation
 Most People like to do fancy things with data, create ML models, create cool dashboards, but nobody ever asks, where did this data come from?
-A model is only good asthe data it is trained on. Insights can only be accutaely drawn on clean data.
+A model is only as good as the data it is trained on. Insights can only be accurately drawn on clean data.
 
 My motivation for making this project is to provide Data scientists, data analysts, and Business analysts access to clean and structured data
-This project provided me with a good opporttunity to learn DevOps and IaaC tools
+This project provided me with a good opporttunity to learn DevOps and IaaC tools. 
