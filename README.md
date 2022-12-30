@@ -36,6 +36,13 @@ The dashboard was created by using a SPICE dataset imported from a Redshift tabl
 To set this up on your 
 
 
+## Challenges
+1. The RedshiftSQL Operator does not support multi line SQL statements
+2. Airflow tasks create and close db sessions and temporary tables only last during a session. A table had to be used
+
+
+
+
 
 
 
