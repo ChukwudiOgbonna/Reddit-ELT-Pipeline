@@ -12,5 +12,5 @@ This project provided me with a good opporttunity to learn DevOps and IaaC tools
 
 ## Architecture
 
-![My Image](my-image.jpg)
+![My Image](Untitled Diagram.drawio.png)
 
