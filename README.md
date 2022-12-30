@@ -4,3 +4,4 @@ This project creates a data pipeline to extract data from reddit sub [r/dataengi
 Output is a Amazon QuickSight Dashboard report, providing some insights into the Data Engineering official subreddit.
 
 ## Motivation
+Most People like to do fancy things with data, create ML models, create cool dashboards, but nodboy ever asks, where did this data come from?. 
