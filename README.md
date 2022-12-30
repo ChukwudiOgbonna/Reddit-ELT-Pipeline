@@ -14,3 +14,13 @@ This project provided me with a good opporttunity to learn DevOps and IaaC tools
 
 ![My Image](architecture.jpg)
 
+1. Extract Data using Reddit API
+2. Load Data into S3 Bucket - Our Data Lake
+3. The Staging Area acts as an intermediary between the S3 Bucket and Redshift Cluster
+4. The Redshift is a Data Warehouse - OLAP
+5. Amazon QuickSight is used to create dashboards
+6. Airflow is used as our workflow orchestrator
+7. Docker is package airflow in a container
+8. Terraform is an IaC tool used to provision our resources like S3 Bucket and Redshift Cluster
+9. dbt is the T in ELT, used to provide tranformation logic to tables in our warehouse
+
