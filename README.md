@@ -28,6 +28,8 @@ This project provided me with a good opporttunity to learn DevOps and IaaC tools
 
 ![My Image1](dashboard.jpg)
 
+Output from Amazon QuickSight dashboard link can be found here [link](https://us-east-1.quicksight.aws.amazon.com/sn/accounts/004743222442/dashboards/d08552d0-7cdb-4e90-9f3c-6b6623b9a82f?directory_alias=chukwudi)
+
 
 
 
