@@ -50,7 +50,6 @@ date_dag_run = datetime.datetime.strptime(output_name, "%Y%m%d")
 
 
 def main():
-    """Extract Reddit data and load to CSV"""
     validate_input(output_name)
     reddit_instance = api_connect()
     subreddit_posts_object = subreddit_posts(reddit_instance)
@@ -60,7 +59,6 @@ def main():
 
 
 def api_connect():
-    """Connect to Reddit API"""
     try:
         instance = praw.Reddit(
             client_id=CLIENT_ID, client_secret=SECRET, user_agent="My User Agent"
@@ -72,7 +70,6 @@ def api_connect():
 
 
 def subreddit_posts(reddit_instance):
-    """Create posts object for Reddit instance"""
     try:
         subreddit = reddit_instance.subreddit(SUBREDDIT)
         posts = subreddit.top(time_filter=TIME_FILTER, limit=LIMIT)
@@ -97,7 +94,7 @@ def extract_data(posts):
         df = pd.DataFrame(list_of_records)
         return df
     except Exception as e:
-        print(f"There is an error chuks {e}")
+        print(f"There is an error {e}")
         sys.exit(1)
 
 def transform_basic(df):

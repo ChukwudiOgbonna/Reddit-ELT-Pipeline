@@ -25,7 +25,6 @@ provider "aws" {
 
 
 
-
 # S3 Bucket Setup
 
 # contains our source data
