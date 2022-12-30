@@ -38,6 +38,7 @@ I use an M1 Macbook pro, so the docker architecture is linux/arm-64
 Run the following commands
 ```
 git clone https://github.com/ChukwudiOgbonna/Reddit-ELT-Pipeline
+cd Reddit-ELT-Pipeline
 terraform init
 terraform apply
 chmod +x output_terraform.sh
