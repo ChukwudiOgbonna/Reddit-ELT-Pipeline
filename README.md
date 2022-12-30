@@ -33,10 +33,22 @@ Output from Amazon QuickSight dashboard link can be found here [link](https://us
 The dashboard was created by using a SPICE dataset imported from a Redshift table
 
 ## Setup
-To set this up on your 
+Due to the fact the project is dockerized. It is portable, and easy to run on different host systems.
+I use an M1 Macbook pro, so the docker architecture is linux/arm-64
+Run the following commands
+```
+git clone https://github.com/ChukwudiOgbonna/Reddit-ELT-Pipeline
+terraform init
+terraform apply
+chmod +x output_terraform.sh
+./output_terrafrom.sh
+docker-compose up
+
+```
 
 
-## Challenges/Limitatios
+
+## Challenges/Limitations
 1. The RedshiftSQL Operator does not support multi line SQL statements, seperate tasks had to be created to run the SQL commands
 2. Airflow tasks create and close db sessions and temporary tables only last during a session. A table had to be used instead
 3. A Makefile can be used to automate the process from provisioning resources using terraform, to injecting configuration variables to the containers and spinning up the containers
