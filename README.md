@@ -24,3 +24,7 @@ This project provided me with a good opporttunity to learn DevOps and IaaC tools
 8. Terraform is an IaC tool used to provision our resources like S3 Bucket and Redshift Cluster
 9. dbt is the T in ELT, used to provide tranformation logic to tables in our warehouse
 
+## Output
+
+
+
