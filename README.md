@@ -34,6 +34,8 @@ This project provided me with a good opporttunity to learn DevOps and IaaC tools
 
 Output from Amazon QuickSight dashboard link can be found here [link](https://us-east-1.quicksight.aws.amazon.com/sn/accounts/004743222442/dashboards/d08552d0-7cdb-4e90-9f3c-6b6623b9a82f?directory_alias=chukwudi)
 
+Unfortunately due to the pricing model, I am unable to give public access. But if you do want to see my work, contact me and i will create an IAM User with permissions to view the dashboard
+
 The dashboard was created by using a SPICE dataset imported from a Redshift table
 
 ## Setup
