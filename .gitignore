@@ -1,0 +1,9 @@
+
+terraform/*
+!terraform/main.tf 
+
+
+airflow/.env
+airflow/logs/
+airflow/plugins/
+airflow/extraction/configuration.conf

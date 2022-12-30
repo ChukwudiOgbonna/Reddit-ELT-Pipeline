@@ -1,0 +1,1 @@
+DELETE FROM redshift_table USING our_staging_table WHERE redshift_table.id = our_staging_table.id;

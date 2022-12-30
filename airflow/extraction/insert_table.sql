@@ -1,0 +1,1 @@
+INSERT INTO redshift_table SELECT * FROM our_staging_table;
