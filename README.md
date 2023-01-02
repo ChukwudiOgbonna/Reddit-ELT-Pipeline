@@ -27,8 +27,11 @@ This project provided me with a good opporttunity to learn DevOps and IaaC tools
 ## Output
 
 ![My Image1](dashboard.jpg)
+
 ![My Image2](dashboard_1.jpg)
+
 ![My Image3](dashboard_2.jpg)
+
 ![My Image4](dashboard_3.jpg)
 
 
